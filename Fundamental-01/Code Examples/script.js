@@ -1,6 +1,10 @@
 // alert("hello world!");
 // console.log(45+13);
-alert("Hello World!");
+if(NaN === NaN){
+    let num=12;
+}
+    
+
 console.log(45+34);
 let country="India";
 let personName="Pritam";
