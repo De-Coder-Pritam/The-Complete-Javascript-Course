@@ -16,6 +16,18 @@ const myfun = ()=>{
 }
 myfunc();
 myfun();
+
+let arr = ['Pritam','Sohan','Chotu'];
+console.log(arr);
+arr.push(34);
+console.log(arr);
+arr.unshift(342);
+console.log(arr);
+console.log(arr.length);
+arr.pop();
+console.log(arr);
+arr.shift();
+console.log(arr);
 console.log(45+34);
 let country="India";
 let personName="Pritam";
