@@ -53,3 +53,13 @@ console.log(pritam.age);
 for (let i = 0; i <= 10; i++) {
   console.log(`Rep ${i}`);
 }
+const priyanka = {
+  firstName: 'Priyanka',
+  lastName: 'Branwal',
+  display: function () {
+    console.log(
+      `First Name is ${this.firstName} and last name is ${this.lastName}`
+    );
+  },
+};
+priyanka.display();
